@@ -102,4 +102,16 @@
         app:layout_constraintTop_toTopOf="@+id/imageView5"
         app:srcCompat="@drawable/ic_animado1_foreground" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="59dp"
+        android:text="Button"
+        android:background="@drawable/botoncito"
+        android:onClick="pulsar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -60,4 +60,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
+    public void pulsar(View v){
+
+    }
 }
